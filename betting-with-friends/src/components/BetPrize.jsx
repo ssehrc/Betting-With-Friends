@@ -5,8 +5,8 @@ const BetPrize = ({betPrize, setBetPrize}) => {
         <div className="prize">
             <div>
                 <input 
-                    type="number"
-                    placeholder="Type in prize money"
+                    type="text"
+                    placeholder="Type in prize"
                     value={betPrize}
                     onChange={(e) => setBetPrize(e.target.value)}
                 />

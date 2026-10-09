@@ -15,16 +15,18 @@ function App() {
     
   }
   return ( 
-    <div className="text-3xl content-center bg-blue-800 text-blue-100 font-extrabold">Betting with Friends
-      <div className="text-2xl">Who do you want to bet?
-        <Search/>
+    <div className="text-3xl content-center bg-blue-500 text-white font-extrabold ">Betting with Friends
+      <div className="text-2xl ">Who do you want to bet?
+        <Search className="cursor-pointer"/>
         What do you want to bet on?
         <BetChoice/>
-        What is the duration?
-        <BetDuration/>
+        What is the duration? (Start-End)
+        <BetDuration /> 
         What is the prize?
         <BetPrize />
+        <button className="box-border h-10 w-30 p-0 border-2 cursor-pointer bg-amber-50 text-blue-700" >Confirm</button>
       </div>
+      
     </div>
     
   )
