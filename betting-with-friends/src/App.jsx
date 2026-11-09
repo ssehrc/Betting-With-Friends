@@ -1,16 +1,15 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
-import BettingRequestPage from './components/BettingRequest'
+import BettingRequest from './components/BettingRequest'
+import ListUser from './components/ListUser'
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 
 function App() {
   return ( 
     <div>
       <h1>Bet With Friends</h1>
       <div>
-        <BettingRequestPage />
+        <BettingRequest />
       </div>
     </div>
   )

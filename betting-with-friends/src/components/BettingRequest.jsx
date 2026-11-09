@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const BettingRequestPage = () =>{
+const BettingRequest = () =>{
     
     return (
         <div>
@@ -41,4 +41,4 @@ const BettingRequestPage = () =>{
     )
 }
 
-export default BettingRequestPage
+export default BettingRequest
