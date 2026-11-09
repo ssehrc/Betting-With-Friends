@@ -34,7 +34,7 @@ const BettingRequestPage = () =>{
                     />
                 </div>
                 <div className="betting-form">
-                    <button className="border-2 border-red-500 rounded-2xl cursor-pointer">Send Request</button>
+                    <button className="border-2 border-red-500 cursor-pointer">Send Request</button>
                 </div>
             </form>
         </div>
