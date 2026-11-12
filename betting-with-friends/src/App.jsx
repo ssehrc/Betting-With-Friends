@@ -1,11 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import BettingRequest from './components/BettingRequest'
-import ListUser from './components/ListUser'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import CreateUser from './components/CreateUser'
-import EditUser from './components/EditUser'
-import { users } from '../data/users'
 
 function App() {
   return ( 
@@ -18,18 +15,14 @@ function App() {
         <BrowserRouter>
           <nav>
             <ul>
-              <li>
-                <Link to="/">List Users</Link>
-              </li>
+              
               <li>
                 <Link to="user/create">Create User</Link>
               </li>
             </ul>
           </nav>
           <Routes>
-            <Route index element={<ListUser />}/>
             <Route path='user/create' element={<CreateUser />}/>
-            <Route path='user/:id/edit' element={<EditUser />}/>
           </Routes>
         </BrowserRouter>
       </div>
