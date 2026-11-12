@@ -5,6 +5,7 @@ import ListUser from './components/ListUser'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import CreateUser from './components/CreateUser'
 import EditUser from './components/EditUser'
+import { users } from '../data/users'
 
 function App() {
   return ( 

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import { users } from "../../data/users";
 
 const BettingRequest = () =>{
     
@@ -8,13 +8,20 @@ const BettingRequest = () =>{
         <div>
             <form>
                 <div className="betting-form">
-                    <label for="friend-name"> Enter your friend's name: </label>
-                    <input 
-                        type="text"
-                        name="name"
-                        id="name"
+                    <label for="friend-name"></label>
+                    <select
+                        name="friend"
+                        id="friend-name"
                         required
-                    />
+                    >
+                        <option value="">Select a Friend:</option>
+                        {users.map((user) => {
+                            return ( <option key={user.id} value={user.id}>
+                                {user.name}
+                            </option>
+                            )
+                        })}
+                    </select>
                 </div>
                 <div className="betting-form">
                     <label for="bet">What are you betting on? </label>
