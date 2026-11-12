@@ -8,13 +8,13 @@ const BettingRequest = () =>{
         <div className="font-MonaSans ">
             <form >
                 <div className="betting-form">
-                    <label for="friend-name"></label>
+                    <label for="friend-name">Select your friend: </label>
                     <select className="cursor-pointer"
                         name="friend"
                         id="friend-name"
                         required
                     >
-                        <option value="" >Select a Friend:</option>
+                        <option value="" ></option>
                         {users.map((user) => {
                             return ( <option key={user.id} value={user.id}>
                                 {user.name}
