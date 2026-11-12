@@ -3,7 +3,7 @@ import React from "react"
 const EditUser = () =>{
     return (
         <h1>
-            List Users
+            Edit Users
         </h1>
     )
 }
