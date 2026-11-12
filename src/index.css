@@ -2,8 +2,8 @@
 @import "tailwindcss";
 
 @theme{
-    --font-display: "Mona Sans Display Expanded";
-
+    --font-MonaExpanded: "Mona Sans Display Expanded";
+    --font-MonaSans: "Mona Sans Display";
 }
 
 

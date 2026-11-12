@@ -5,16 +5,16 @@ import { users } from "../../data/users";
 const BettingRequest = () =>{
     
     return (
-        <div className="">
-            <form>
+        <div className="font-MonaSans ">
+            <form >
                 <div className="betting-form">
                     <label for="friend-name"></label>
-                    <select
+                    <select className="cursor-pointer"
                         name="friend"
                         id="friend-name"
                         required
                     >
-                        <option value="">Select a Friend:</option>
+                        <option value="" >Select a Friend:</option>
                         {users.map((user) => {
                             return ( <option key={user.id} value={user.id}>
                                 {user.name}
@@ -24,8 +24,8 @@ const BettingRequest = () =>{
                     </select>
                 </div>
                 <div className="betting-form">
-                    <label for="bet">What are you betting on? </label>
-                    <input 
+                    <label  for="bet">What are you betting on? </label>
+                    <input className="cursor-pointer border-2"
                         type="text"
                         name="bet"
                         id="bet"
@@ -34,7 +34,7 @@ const BettingRequest = () =>{
                 </div>
                 <div className="betting-form">
                     <label for="prize">What is your bet? </label>
-                    <input
+                    <input className="cursor-pointer border-2"
                         type="text"
                         name="prize"
                         id="prize"
@@ -42,7 +42,8 @@ const BettingRequest = () =>{
                     />
                 </div>
                 <div className="betting-form">
-                    <button className="border-2 border-red-500 cursor-pointer">Send Request</button>
+                    <button className="border-2 border-purple-800 bg-purple-800 text-gray-300 
+                    rounded text-xl cursor-pointer">Send Request</button>
                 </div>
             </form>
         </div>

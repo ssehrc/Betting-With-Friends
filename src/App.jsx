@@ -8,7 +8,7 @@ import CreateUser from './components/CreateUser'
 function App() {
   return ( 
     <div>
-      <h1 className='font-display text-3xl text-indigo-900'>Betting With Friends</h1>
+      <h1 className='font-MonaExpanded text-3xl text-indigo-900'>Betting With Friends</h1>
       <div>
         <BettingRequest />
       </div>
