@@ -14,8 +14,20 @@ const CreateUser = () =>{
                             id="full-name"
                             required
                         />
-                    </div>
-                    
+                    </div>      
+                </div>
+                <div className="register-form">
+                    <label for="password">New Password: </label>
+                    <input className="border-2"
+                        type='text'
+                        name="password"
+                        id='password'
+                        required
+                    />
+                </div>
+                <div className="register-form">
+                    <button className="border-2 border-black bg-black text-gray-300 
+                    rounded text-xl cursor-pointer">Register</button>
                 </div>
             </form>
         </h1>
