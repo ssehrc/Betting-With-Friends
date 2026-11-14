@@ -1,8 +1,14 @@
 import React from "react"
 
-const CreateUser = () =>{
+const Register = () =>{
     return (
         <h1>
+            <div className="left -left-3">
+                    <h1>Betting With Friends</h1>
+                    <p>Bet with your friends with no limits.</p>
+                    <span>Don't have an account?</span>
+                    <div><button>Register</button></div>
+                </div>
             <form>
                 <div className="register-form">
                     Create a New Account:
@@ -34,4 +40,4 @@ const CreateUser = () =>{
     )
 }
 
-export default CreateUser
+export default Register

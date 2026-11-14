@@ -4,22 +4,17 @@ const Login = () =>{
     return(
         <div className="Login">
             <div className="card">
-                <div className="left">
-                    <h1>Betting With Friends</h1>
-                    <p>Bet with your friends with no limits.</p>
-                    <span>Don't have an account?</span>
-                    <div><button>Register</button></div>
-                </div>
-                <div className="right">
+                
+                <div className="right flex-1 -right-1/2">
                     <h1>Login</h1>
                     <form>
-                        <input
+                        <input className="border-2"
                             type="text"
                             placeholder="Username"
                         />
-                        <input
+                        <input className="border-2"
                             type="password"
-                            placeholder="password"
+                            placeholder="Password"
                         />
                         <div>
                             <button className="border-2 border-black bg-black text-gray-300 
