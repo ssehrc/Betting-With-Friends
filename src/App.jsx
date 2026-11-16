@@ -9,18 +9,17 @@ import Login from './pages/Login/Login'
 function App() {
   const router = createBrowserRouter ([
     {
-      path: "\login",
+      path: "/login",
       element: <Login />
     },
     {
-      path: "\register",
+      path: "/register",
       element: <Register /> 
     }
   ]);
   return ( 
     <div>
       <RouterProvider router={router} />
-      
     </div>
   )
 }
