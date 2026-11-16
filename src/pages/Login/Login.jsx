@@ -1,19 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Login = () =>{
     return(
         <div className="Login">
             <div className="card">
-                <div className="left -left-3">
-                    <h1>Betting With Friends</h1>
-                    <p>Bet with your friends with no limits.</p>
-                    <span>Don't have an account?</span>
+                <h1 className="font-MonaExpanded text-white text-3xl flex items-center place-content-center">Betting With Friends</h1>
+                <div className="font-Redaction50 grid grid-cols-3 gap-2 place-content-center text-white ">
+                    <p className="">Bet with your friends with no limits.</p>
+                    <span className="">Don't have an account?</span>
                     <Link to="\register">
-                    <h1><button className="border-2 cursor-pointer">Register</button></h1>
+                    <h1><button className="border-2 rounded cursor-pointer">Register</button></h1>
                     </Link>
                 </div>
-                <div className="right flex-1 -right-1/2">
+                <div className="right flex-1 text-white">
                 <h1>Login</h1>
                     <form>
                         <input className="border-2"
