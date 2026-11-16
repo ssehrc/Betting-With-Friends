@@ -26,10 +26,13 @@ const Login = () =>{
                             placeholder="Password"
                         />
                         <div>
+                            <Link to="\bettingrequest">
                             <button className="border-2 border-black bg-black text-gray-300 
                     rounded text-xl cursor-pointer">Login</button>
+                            </Link>
+                            
                         </div>
-                    </form>
+                    </form> 
                 </div>
             </div>
         </div>

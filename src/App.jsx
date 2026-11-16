@@ -15,6 +15,10 @@ function App() {
     {
       path: "/register",
       element: <Register /> 
+    },
+    {
+      path: "/bettingrequest",
+      element: <BettingRequest />
     }
   ]);
   return ( 
