@@ -39,8 +39,9 @@ const Register = () =>{
                     />
                 </div>
                 <div className="register-form">
-                    <button className="border-2 border-black bg-black text-gray-300 
-                    rounded text-xl cursor-pointer">Register</button>
+                    <Link to="/bettingrequest"><button className="border-2 border-black bg-black text-gray-300 
+                    rounded text-xl cursor-pointer">Register</button></Link>
+                    
                 </div>
             </form>
         </h1>
