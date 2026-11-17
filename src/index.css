@@ -4,12 +4,9 @@
 @import "tailwindcss";
 
 @theme{
-    --font-MonaExpanded: "Mona Sans", sans-serif;
+    --font-MonaExpanded: "Mona Sans";
     --font-MonaSans: "Mona Sans Display";
     --font-GoogleSans: "Google Sans";
     --font-TimesNewRoman: "Times New Roman";
     --font-Redaction50: "Redaction 50";
 }
-
-
-
